@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--320 x 480-->
+<resources>
+    <dimen name="progress_bar_inicial">150dp</dimen>
+    <dimen name="altura_fragment">75dp</dimen>
+    <dimen name="largura_fragment">145dp</dimen>
+    <dimen name="altura_fragment_autor">30dp</dimen>
+    <dimen name="tamanho_imagem">30dp</dimen>
+</resources>

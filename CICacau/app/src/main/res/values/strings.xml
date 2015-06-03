@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">CICacau</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_menu_principal">MenuPrincipal</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_analise_conjural_completa">AnaliseConjuralCompleta</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_cursos_eventos_completo">CursosEventosCompleto</string>
+    <string name="title_activity_lei_completa">LeiCompleta</string>
+    <string name="title_activity_list_analise_conjural">ListAnaliseConjural</string>
+    <string name="title_activity_list_cursos_eventos">ListCursosEventos</string>
+    <string name="title_activity_list_leis">ListLeis</string>
+    <string name="title_activity_list_noticias">ListNoticias</string>
+    <string name="title_activity_list_patentes">ListPatentes</string>
+    <string name="title_activity_list_textos_tecnicos">ListTextosTecnicos</string>
+    <string name="title_activity_list_video">ListVideo</string>
+    <string name="title_activity_noticia_completa">NoticiaCompleta</string>
+    <string name="title_activity_patente_completa">PatenteCompleta</string>
+    <string name="title_activity_texto_tecnico_completo">TextoTecnicoCompleto</string>
+    <string name="title_activity_video_completo">VideoCompleto</string>
+    <string name="title_activity_filtro_noticia">Filtrar</string>
+</resources>
