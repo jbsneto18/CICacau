@@ -1,6 +1,6 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" tools:context="com.example.jose.cicacau.Fragmentos.CursosEventos"
+    android:layout_height="match_parent" tools:context="com.example.jose.cicacau.CursosEventos"
     android:background="#808000"
     android:onClick="carregaListaCursosEventos">
 
@@ -20,7 +20,7 @@
     <ImageView
         android:layout_width="30dp"
         android:layout_height="30dp"
-        android:src="@mipmap/cursos"
+        android:src="@drawable/cursos"
         android:layout_gravity="left|center_vertical"
         android:layout_centerVertical="true"
         android:layout_toLeftOf="@+id/textView"

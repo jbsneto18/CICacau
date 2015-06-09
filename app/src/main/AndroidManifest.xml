@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".Telas.TelaInicial"
+            android:name=".TelaInicial"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/FullscreenTheme" >
@@ -25,70 +25,66 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Telas.MenuPrincipal"
+            android:name=".MenuPrincipal"
             android:label="@string/title_activity_menu_principal"
             android:screenOrientation="portrait"
             android:theme="@style/FullscreenTheme" >
         </activity>
         <activity
-            android:name=".Telas.AnaliseConjuralCompleta"
+            android:name=".AnaliseConjuralCompleta"
             android:label="Análise Conjural" >
         </activity>
         <activity
-            android:name=".Telas.CursosEventosCompleto"
+            android:name=".CursosEventosCompleto"
             android:label="Cursos e Eventos" >
         </activity>
         <activity
-            android:name=".Telas.LeiCompleta"
+            android:name=".LeiCompleta"
             android:label="Lei" >
         </activity>
         <activity
-            android:name=".Lista.ListAnaliseConjural"
+            android:name=".ListAnaliseConjural"
             android:label="Análise Conjural" >
         </activity>
         <activity
-            android:name=".Lista.ListCursosEventos"
+            android:name=".ListCursosEventos"
             android:label="Cursos e Eventos" >
         </activity>
         <activity
-            android:name=".Lista.ListLeis"
+            android:name=".ListLeis"
             android:label="Leis" >
         </activity>
         <activity
-            android:name=".Lista.ListNoticias"
+            android:name=".ListNoticias"
             android:label="Notícias" >
         </activity>
         <activity
-            android:name=".Lista.ListPatentes"
+            android:name=".ListPatentes"
             android:label="Patentes" >
         </activity>
         <activity
-            android:name=".Lista.ListTextosTecnicos"
+            android:name=".ListTextosTecnicos"
             android:label="Textos Técnicos" >
         </activity>
         <activity
-            android:name=".Lista.ListVideo"
+            android:name=".ListVideo"
             android:label="Vídeos" >
         </activity>
         <activity
-            android:name=".Telas.NoticiaCompleta"
+            android:name=".NoticiaCompleta"
             android:label="Notícia" >
         </activity>
         <activity
-            android:name=".Telas.PatenteCompleta"
+            android:name=".PatenteCompleta"
             android:label="Patente" >
         </activity>
         <activity
-            android:name=".Telas.TextoTecnicoCompleto"
+            android:name=".TextoTecnicoCompleto"
             android:label="Texto Técnico" >
         </activity>
         <activity
-            android:name=".Telas.VideoCompleto"
+            android:name=".VideoCompleto"
             android:label="Vídeo" >
-        </activity>
-        <activity
-            android:name=".Exit"
-            android:label="@string/title_activity_exit" >
         </activity>
     </application>
 

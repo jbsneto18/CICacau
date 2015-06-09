@@ -26,5 +26,4 @@
     <string name="title_activity_texto_tecnico_completo">TextoTecnicoCompleto</string>
     <string name="title_activity_video_completo">VideoCompleto</string>
     <string name="title_activity_filtro_noticia">Filtrar</string>
-    <string name="title_activity_exit">Exit</string>
 </resources>

@@ -1,6 +1,6 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" tools:context="com.example.jose.cicacau.Fragmentos.AnaliseConjural"
+    android:layout_height="match_parent" tools:context="com.example.jose.cicacau.AnaliseConjural"
     android:background="#808000"
     android:onClick="carregaListaAnaliseConjural">
 
@@ -20,7 +20,7 @@
     <ImageView
         android:layout_width="35dp"
         android:layout_height="35dp"
-        android:src="@mipmap/analise"
+        android:src="@drawable/analise"
         android:layout_gravity="left|center_vertical"
         android:layout_centerVertical="true"
         android:layout_toLeftOf="@+id/textView"
