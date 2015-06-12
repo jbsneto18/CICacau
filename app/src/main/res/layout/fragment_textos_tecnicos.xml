@@ -1,11 +1,11 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" tools:context="com.example.jose.cicacau.TextosTecnicos"
+    android:layout_height="match_parent" tools:context="com.jose.cicacau.Fragmentos.TextosTecnicos"
     android:background="#808000"
     android:onClick="carregaListaTextosTecnicos">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="97dp"
         android:layout_height="wrap_content"
         android:text="TEXTOS TÉCNICOS"
         android:textAlignment="center"
@@ -20,7 +20,7 @@
     <ImageView
         android:layout_width="30dp"
         android:layout_height="30dp"
-        android:src="@drawable/livros"
+        android:src="@mipmap/textos"
         android:layout_gravity="left|center_vertical"
         android:layout_centerVertical="true"
         android:layout_toLeftOf="@+id/textView"

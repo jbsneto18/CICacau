@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.jose.cicacau" >
+    package="com.jose.cicacau" >
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".TelaInicial"
+            android:name="com.jose.cicacau.Telas.TelaInicial"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/FullscreenTheme" >
@@ -25,66 +25,70 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MenuPrincipal"
+            android:name="com.jose.cicacau.Telas.MenuPrincipal"
             android:label="@string/title_activity_menu_principal"
             android:screenOrientation="portrait"
             android:theme="@style/FullscreenTheme" >
         </activity>
         <activity
-            android:name=".AnaliseConjuralCompleta"
-            android:label="Análise Conjural" >
+            android:name="com.jose.cicacau.Telas.AnaliseConjuralCompleta"
+            android:label="Análise Conjuntural" >
         </activity>
         <activity
-            android:name=".CursosEventosCompleto"
+            android:name="com.jose.cicacau.Telas.CursosEventosCompleto"
             android:label="Cursos e Eventos" >
         </activity>
         <activity
-            android:name=".LeiCompleta"
+            android:name="com.jose.cicacau.Telas.LeiCompleta"
             android:label="Lei" >
         </activity>
         <activity
-            android:name=".ListAnaliseConjural"
-            android:label="Análise Conjural" >
+            android:name="com.jose.cicacau.Lista.ListAnaliseConjural"
+            android:label="Análise Conjuntural" >
         </activity>
         <activity
-            android:name=".ListCursosEventos"
+            android:name="com.jose.cicacau.Lista.ListCursosEventos"
             android:label="Cursos e Eventos" >
         </activity>
         <activity
-            android:name=".ListLeis"
+            android:name="com.jose.cicacau.Lista.ListLeis"
             android:label="Leis" >
         </activity>
         <activity
-            android:name=".ListNoticias"
+            android:name="com.jose.cicacau.Lista.ListNoticias"
             android:label="Notícias" >
         </activity>
         <activity
-            android:name=".ListPatentes"
+            android:name="com.jose.cicacau.Lista.ListPatentes"
             android:label="Patentes" >
         </activity>
         <activity
-            android:name=".ListTextosTecnicos"
+            android:name="com.jose.cicacau.Lista.ListTextosTecnicos"
             android:label="Textos Técnicos" >
         </activity>
         <activity
-            android:name=".ListVideo"
+            android:name="com.jose.cicacau.Lista.ListVideo"
             android:label="Vídeos" >
         </activity>
         <activity
-            android:name=".NoticiaCompleta"
+            android:name="com.jose.cicacau.Telas.NoticiaCompleta"
             android:label="Notícia" >
         </activity>
         <activity
-            android:name=".PatenteCompleta"
+            android:name="com.jose.cicacau.Telas.PatenteCompleta"
             android:label="Patente" >
         </activity>
         <activity
-            android:name=".TextoTecnicoCompleto"
+            android:name="com.jose.cicacau.Telas.TextoTecnicoCompleto"
             android:label="Texto Técnico" >
         </activity>
         <activity
-            android:name=".VideoCompleto"
+            android:name="com.jose.cicacau.Telas.VideoCompleto"
             android:label="Vídeo" >
+        </activity>
+        <activity
+            android:name="com.jose.cicacau.Exit"
+            android:label="@string/title_activity_exit" >
         </activity>
     </application>
 

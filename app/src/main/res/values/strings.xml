@@ -26,4 +26,9 @@
     <string name="title_activity_texto_tecnico_completo">TextoTecnicoCompleto</string>
     <string name="title_activity_video_completo">VideoCompleto</string>
     <string name="title_activity_filtro_noticia">Filtrar</string>
+    <string name="title_activity_exit">Exit</string>
+
+    <string name="splash_uesc_text">Universidade Estadual de Santa Cruz</string>
+    <string name="splash_cicacau_text"><b>C I C a c a u</b></string>
+    <string name="splash_cicacauhint_text">Centro de Inteligência do Cacau</string>
 </resources>

@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" android:background="#afae51"
-    tools:context="com.example.jose.cicacau.MenuPrincipal"
+    tools:context="com.jose.cicacau.Telas.MenuPrincipal"
     android:padding="10dp"
     android:orientation="vertical">
 
@@ -17,7 +17,7 @@
     <fragment
         android:layout_width="match_parent"
         android:layout_height="@dimen/altura_fragment"
-        android:name="com.example.jose.cicacau.Noticias"
+        android:name="com.jose.cicacau.Fragmentos.Noticias"
         android:id="@+id/fragment" />
 
     <LinearLayout
@@ -29,24 +29,24 @@
         <fragment
             android:layout_width="@dimen/largura_fragment"
             android:layout_height="@dimen/altura_fragment"
-            android:name="com.example.jose.cicacau.Videos"
+            android:name="com.jose.cicacau.Fragmentos.Videos"
             android:id="@+id/fragment1" />
 
         <fragment
             android:layout_width="@dimen/largura_fragment"
             android:layout_height="@dimen/altura_fragment"
-            android:name="com.example.jose.cicacau.Leis"
+            android:name="com.jose.cicacau.Fragmentos.Leis"
             android:id="@+id/fragment2"
             android:layout_marginLeft="10dp"/>
 
         </LinearLayout>
 
-    <fragment
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/altura_fragment"
-        android:name="com.example.jose.cicacau.TextosTecnicos"
-        android:id="@+id/fragment3"
-        android:layout_marginTop="10dp"/>
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/altura_fragment"
+            android:name="com.jose.cicacau.Fragmentos.AnaliseConjural"
+            android:layout_marginTop="10dp"
+            android:id="@+id/fragment6" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -57,13 +57,13 @@
         <fragment
             android:layout_width="@dimen/largura_fragment"
             android:layout_height="@dimen/altura_fragment"
-            android:name="com.example.jose.cicacau.Patentes"
+            android:name="com.jose.cicacau.Fragmentos.Patentes"
             android:id="@+id/fragment4" />
 
         <fragment
             android:layout_width="@dimen/largura_fragment"
             android:layout_height="@dimen/altura_fragment"
-            android:name="com.example.jose.cicacau.CursosEventos"
+            android:name="com.jose.cicacau.Fragmentos.CursosEventos"
             android:id="@+id/fragment5"
             android:layout_marginLeft="10dp"/>
 
@@ -78,13 +78,14 @@
         <fragment
             android:layout_width="@dimen/largura_fragment"
             android:layout_height="@dimen/altura_fragment"
-            android:name="com.example.jose.cicacau.AnaliseConjural"
-            android:id="@+id/fragment6" />
+            android:name="com.jose.cicacau.Fragmentos.TextosTecnicos"
+            android:id="@+id/fragment3"
+            />
 
         <fragment
             android:layout_width="@dimen/largura_fragment"
             android:layout_height="@dimen/altura_fragment"
-            android:name="com.example.jose.cicacau.Site"
+            android:name="com.jose.cicacau.Fragmentos.Site"
             android:id="@+id/fragment7"
             android:layout_marginLeft="10dp"/>
 
@@ -93,7 +94,7 @@
     <fragment
         android:layout_width="match_parent"
         android:layout_height="@dimen/altura_fragment_autor"
-        android:name="com.example.jose.cicacau.Autor"
+        android:name="com.jose.cicacau.Fragmentos.Autor"
         android:id="@+id/fragment8"
         android:layout_marginTop="10dp"/>
     </LinearLayout>
